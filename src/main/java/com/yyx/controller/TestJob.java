@@ -9,12 +9,12 @@ public class TestJob {
 
 	private static final Logger logger = LoggerFactory.getLogger(TestJob.class);
 
-	// 把要执行的操作，
+	// 
 	public void execute() {
 		execute2();
 	}
 
 	public void execute2() {
-		logger.error("测试Quartz:",new Date());
+		logger.info("娴嬭瘯Quartz:{}",new Date());
 	}
 }

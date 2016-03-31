@@ -56,8 +56,8 @@
 	<!-- 另一种触发器是CornTrigger -->
  	<bean id="cornTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
 	   <property name="jobDetail" ref="jobDetail1"/>
-	   <!-- 下午3点51分 -->
-	   <property name="cronExpression" value="0 24 16 * * ? *"/>
+	   <!-- 每一分钟触发一次-->
+	   <property name="cronExpression" value="0/5 * * * * ?"/>
 	</bean> 
 	
 	<!-- 定义核心调度器 -->
