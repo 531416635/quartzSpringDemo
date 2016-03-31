@@ -197,7 +197,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>quartz-spring_demo</finalName>
+		<finalName>quartzSpringDemo</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
